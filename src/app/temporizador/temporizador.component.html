@@ -1,0 +1,15 @@
+<div class="div-conteiner">
+  <h2>Temporizador</h2>
+  <legend>
+    Ajusto o temporizador de acordo com o intervalo de tempo desejado
+  </legend>
+  <input
+    type="number"
+    [(ngModel)]="intervaloTemporizador"
+    placeholder="Ex: 1"
+  />
+  <div id="btn">
+    <button id="button-1" (click)="timer.start(intervaloTemporizador * 1000)"> Iniciar</button>
+    <button id="button-2" (click)="timer.stop()">Parar</button>
+  </div>
+</div>

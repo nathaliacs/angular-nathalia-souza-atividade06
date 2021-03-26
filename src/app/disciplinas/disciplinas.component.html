@@ -1,0 +1,19 @@
+<div class="div-conteiner">
+  <h1 class="h3 text-center mt-3 mb-5">Disciplinas</h1>
+
+  <h2>Tarefas</h2>
+  <div>
+    <input #input type="text" />
+    <button (click)="this.disciplinas.add(input.value); input.value='';">Adicionar</button>
+  </div>
+  <ul>
+    <li *ngFor="let disciplina of this.disciplinas.getList(); index as i">
+      {{disciplina.title}}
+      <button class="btn-excliur" (click)="this.disciplinas.remove(i)" style="cursor:pointer">
+      Excluir
+    </button>
+    </li>
+  </ul>
+
+
+</div>

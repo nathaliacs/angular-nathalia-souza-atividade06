@@ -1,0 +1,36 @@
+input {
+  background-color: #eee;
+  border: 0;
+  padding: 3px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+  margin: 5px 0;
+  border-radius: 2px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+button {
+  border: 0;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  width: 100px;
+
+}
+#btn {
+  text-align: center;
+  margin: 10px 0;
+}
+#button-2 {
+  background-color: tomato;  
+}
+
+#button-1 {
+  background-color: #009688;
+}
